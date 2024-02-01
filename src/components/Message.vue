@@ -93,15 +93,17 @@ watch(
     align-items: center;
     animation: fade 0.5s;
     max-width: 460px;
+
     .logo-img {
       border-radius: 50%;
       width: 120px;
     }
+
     .name {
       width: 100%;
       padding-left: 22px;
       transform: translateY(-8px);
-      font-family: "Pacifico-Regular";
+      font-family: "FiraCode-Retina";
 
       .bg {
         font-size: 5rem;
@@ -110,17 +112,21 @@ watch(
       .sm {
         margin-left: 6px;
         font-size: 2rem;
+
         @media (min-width: 720px) and (max-width: 789px) {
           display: none;
         }
       }
     }
+
     @media (max-width: 768px) {
       .logo-img {
         width: 100px;
       }
+
       .name {
         height: 128px;
+
         .bg {
           font-size: 4.5rem;
         }
@@ -149,7 +155,7 @@ watch(
 
         p {
           &:nth-of-type(1) {
-            font-family: "Pacifico-Regular";
+            font-family: "FiraCode-Retina";
           }
         }
       }
@@ -158,30 +164,37 @@ watch(
         align-self: flex-end;
       }
     }
+
     @media (max-width: 720px) {
       max-width: 100%;
       pointer-events: none;
     }
   }
+
   @media (max-width: 390px) {
     .logo {
       flex-direction: column;
+
       .logo-img {
         display: none;
       }
+
       .name {
         margin-left: 0;
         height: auto;
         transform: none;
         text-align: center;
+
         .bg {
           font-size: 3.5rem;
         }
+
         .sm {
           font-size: 1.4rem;
         }
       }
     }
+
     .description {
       margin-top: 2.5rem;
     }
