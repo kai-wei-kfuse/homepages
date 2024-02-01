@@ -101,7 +101,7 @@ watch(
 
     .name {
       width: 100%;
-      padding-left: 22px;
+      padding-left: 20px;
       transform: translateY(-8px);
       font-family: "FiraCode-Retina";
 
